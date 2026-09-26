@@ -37,12 +37,13 @@
                 ☰
             </button>
 
-            <nav class="nav-menu" id="navMenu">
-                <a href="#home">Home</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
+            <nav class="nav-menu" id="navMenu"> 
+                <a href="#home">Home</a> 
+                <a href="#about">About</a>
+                <a href="#services">Services</a> 
+                <a href="#projects">Projects</a> 
+                <a href="#team">Team</a> 
+                <a href="#contact">Contact</a> 
             </nav>
 
         </div>
@@ -54,49 +55,64 @@
     <main>
 
         <section class="hero" id="home">
-
             <div class="container hero-container">
 
                 <div class="hero-content">
 
-                    <div class="badge">
-                        <span class="status-dot"></span>
-                        3 Developers · One Vision
+                    <div class="hero-badge">
+                        <span></span>
+                        3 Developers · 1 Vision
                     </div>
 
                     <h1>
-                        We build
-                        <span>digital experiences</span>
-                        that matter.
+                        We Build
+                        <span>Digital Experiences</span>
+                        That Matter.
                     </h1>
 
                     <p>
-                        DevNinja-Club is a 3-person developer group building
-                        modern, responsive and full-stack web applications
+                        DevNinja-Club is a team of developers building modern,
+                        responsive and scalable websites and web applications
                         for businesses, startups and individuals.
                     </p>
 
                     <div class="hero-buttons">
-
                         <a href="#projects" class="btn btn-primary">
-                            View Projects →
+                            View Our Work
                         </a>
 
                         <a href="#contact" class="btn btn-secondary">
-                            Work With Us
+                            Start a Project
                         </a>
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <strong>03</strong>
+                            <span>Developers</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>∞</strong>
+                            <span>Ideas</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>24/7</strong>
+                            <span>Learning</span>
+                        </div>
 
                     </div>
 
                 </div>
 
-
                 <div class="hero-visual">
 
-                    <div class="code-window">
+                    <div class="code-card">
 
-                        <div class="window-header">
-                            <div class="window-dots">
+                        <div class="code-header">
+                            <div class="code-dots">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -105,20 +121,107 @@
                             <span>devninja.js</span>
                         </div>
 
-                        <div class="code-content">
+                        <div class="code-body">
+        <pre><code><span class="code-purple">const</span> <span class="code-blue">DevNinja</span> = {
+            <span class="code-green">team</span>: <span class="code-orange">3</span>,
+            <span class="code-green">passion</span>: <span class="code-orange">"∞"</span>,
+            <span class="code-green">focus</span>: <span class="code-orange">"Web Development"</span>,
 
-<pre><code><span class="purple">const</span> team = {
-    name: <span class="green">"DevNinja-Club"</span>,
-    members: <span class="orange">3</span>,
-    focus: <span class="green">"Full Stack"</span>
-};
+            <span class="code-green">build</span>: () => {
+                <span class="code-purple">return</span> <span class="code-orange">"Something Great"</span>;
+            }
+        };</code></pre>
+                        </div>
 
-<span class="purple">function</span> <span class="blue">build</span>() {
-    <span class="purple">return</span> <span class="green">"Ideas → Reality"</span>;
-}
+                    </div>
 
-<span class="blue">build</span>();</code></pre>
+                    <div class="floating-card card-one">
+                        <span>⚡</span>
+                        Fast Development
+                    </div>
 
+                    <div class="floating-card card-two">
+                        <span>◈</span>
+                        Modern Design
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+            ABOUT SECTION
+        ========================= -->
+
+        <section class="about section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">WHO WE ARE</span>
+                    <h2>Small Team.<br><span>Big Ideas.</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-content reveal-left">
+
+                        <p class="about-lead">
+                            We are DevNinja-Club — a 3-person development team
+                            turning ideas into modern digital experiences.
+                        </p>
+
+                        <p>
+                            We work together to design and develop responsive
+                            websites and web applications for businesses,
+                            startups and individuals.
+                        </p>
+
+                        <p>
+                            We believe great software comes from curiosity,
+                            collaboration and continuous learning. Every project
+                            gives us an opportunity to build something better.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Let's build something together →
+                        </a>
+
+                    </div>
+
+                    <div class="about-features reveal-right">
+
+                        <div class="about-card">
+                            <div class="about-icon">01</div>
+                            <div>
+                                <h3>Collaborative</h3>
+                                <p>
+                                    Three developers working together,
+                                    sharing ideas and solving problems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="about-card">
+                            <div class="about-icon">02</div>
+                            <div>
+                                <h3>Modern</h3>
+                                <p>
+                                    We use modern technologies and
+                                    development practices.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="about-card">
+                            <div class="about-icon">03</div>
+                            <div>
+                                <h3>Always Learning</h3>
+                                <p>
+                                    Every project helps us learn,
+                                    improve and grow.
+                                </p>
+                            </div>
                         </div>
 
                     </div>
@@ -126,46 +229,37 @@
                 </div>
 
             </div>
-
         </section>
 
 
-        <!-- ================= SERVICES ================= -->
+        <!-- =========================
+            SERVICES SECTION
+        ========================= -->
 
-        <section class="section" id="services">
-
+        <section class="services section" id="services">
             <div class="container">
 
                 <div class="section-heading">
-
                     <span class="section-label">WHAT WE DO</span>
-
-                    <h2>
-                        Turning ideas into
-                        <span>working products.</span>
-                    </h2>
-
-                    <p>
-                        From the first idea to deployment, we build practical
-                        digital solutions designed around real-world needs.
-                    </p>
-
+                    <h2>Services Built<br><span>For Your Ideas.</span></h2>
                 </div>
-
 
                 <div class="services-grid">
 
-                    <article class="service-card">
+                    <!-- Service 1 -->
+                    <div class="service-card reveal reveal-delay-1">
 
                         <div class="service-number">01</div>
 
-                        <div class="service-icon">◈</div>
+                        <div class="service-icon">
+                            &lt;/&gt;
+                        </div>
 
                         <h3>Web Development</h3>
 
                         <p>
-                            Responsive and modern websites built with clean,
-                            maintainable code.
+                            Modern, responsive and user-friendly websites
+                            built for businesses, startups and individuals.
                         </p>
 
                         <div class="service-tags">
@@ -174,78 +268,83 @@
                             <span>JavaScript</span>
                         </div>
 
-                    </article>
+                    </div>
 
-
-                    <article class="service-card">
+                    <!-- Service 2 -->
+                    <div class="service-card reveal reveal-delay-2">
 
                         <div class="service-number">02</div>
 
-                        <div class="service-icon">⌘</div>
+                        <div class="service-icon">
+                            ⚙
+                        </div>
 
-                        <h3>Full-Stack Applications</h3>
+                        <h3>Web Applications</h3>
 
                         <p>
-                            Complete web applications with frontend,
-                            backend, databases and APIs.
+                            Interactive web applications designed to solve
+                            real problems and improve digital workflows.
                         </p>
 
                         <div class="service-tags">
                             <span>React</span>
                             <span>Python</span>
-                            <span>Django</span>
+                            <span>APIs</span>
                         </div>
 
-                    </article>
+                    </div>
 
-
-                    <article class="service-card">
+                    <!-- Service 3 -->
+                    <div class="service-card reveal reveal-delay-3">
 
                         <div class="service-number">03</div>
 
-                        <div class="service-icon">◇</div>
+                        <div class="service-icon">
+                            ◇
+                        </div>
 
-                        <h3>UI & UX</h3>
+                        <h3>UI & UX Design</h3>
 
                         <p>
-                            Clean interfaces focused on usability,
-                            responsiveness and great user experiences.
+                            Clean and intuitive interfaces focused on usability,
+                            visual consistency and a smooth user experience.
                         </p>
 
                         <div class="service-tags">
-                            <span>UI</span>
+                            <span>UI Design</span>
                             <span>UX</span>
                             <span>Responsive</span>
                         </div>
 
-                    </article>
+                    </div>
 
-
-                    <article class="service-card">
+                    <!-- Service 4 -->
+                    <div class="service-card reveal reveal-delay-4">
 
                         <div class="service-number">04</div>
 
-                        <div class="service-icon">↗</div>
+                        <div class="service-icon">
+                            ☁
+                        </div>
 
-                        <h3>API & Backend</h3>
+                        <h3>Deployment & Support</h3>
 
                         <p>
-                            Secure backend systems and APIs designed to
-                            connect applications and data.
+                            Help with deploying websites and applications,
+                            fixing issues and keeping projects running smoothly.
                         </p>
 
                         <div class="service-tags">
-                            <span>REST</span>
-                            <span>FastAPI</span>
-                            <span>SQL</span>
+                            <span>GitHub</span>
+                            <span>Netlify</span>
+                            <span>Hosting</span>
                         </div>
 
-                    </article>
+                    </div>
 
                 </div>
 
             </div>
-
         </section>
 
 
@@ -281,115 +380,140 @@
         </section>
 
 
-        <!-- ================= PROJECTS ================= -->
+        <!-- =========================
+            PROJECTS SECTION
+        ========================= -->
 
-        <section class="section projects-section" id="projects">
-
+        <section class="projects section" id="projects">
             <div class="container">
 
                 <div class="section-heading">
-
-                    <span class="section-label">SELECTED WORK</span>
-
-                    <h2>
-                        Projects we're
-                        <span>building.</span>
-                    </h2>
-
-                    <p>
-                        Our portfolio is currently under development.
-                        Real projects will appear here as we build them.
-                    </p>
-
+                    <span class="section-label">OUR WORK</span>
+                    <h2>Projects We're<br><span>Building.</span></h2>
                 </div>
-
 
                 <div class="projects-grid">
 
-                    <article class="project-card featured-project">
+                    <!-- Project 1 -->
+                    <article class="project-card reveal reveal-delay-1">
 
-                        <div class="project-image project-one">
-                            <span>PROJECT 01</span>
+                        <div class="project-image project-image-one">
+                            <div class="project-placeholder">
+                                <span>&lt;/&gt;</span>
+                            </div>
+
+                            <div class="project-status">
+                                In Progress
+                            </div>
                         </div>
 
-                        <div class="project-info">
+                        <div class="project-content">
 
-                            <span class="project-status">
-                                IN DEVELOPMENT
-                            </span>
+                            <div class="project-meta">
+                                <span>01</span>
+                                <span>Web Development</span>
+                            </div>
 
-                            <h3>DevNinja Portfolio</h3>
+                            <h3>DevNinja-Club Portfolio</h3>
 
                             <p>
-                                The official portfolio platform for
-                                DevNinja-Club.
+                                Our official portfolio website showcasing
+                                our team, services, technologies and projects.
                             </p>
 
-                            <div class="project-tags">
+                            <div class="project-tech">
                                 <span>HTML</span>
                                 <span>CSS</span>
                                 <span>JavaScript</span>
                             </div>
 
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
                         </div>
 
                     </article>
 
+                    <!-- Project 2 -->
+                    <article class="project-card reveal reveal-delay-2">
 
-                    <article class="project-card">
+                        <div class="project-image project-image-two">
+                            <div class="project-placeholder">
+                                <span>☷</span>
+                            </div>
 
-                        <div class="project-image project-two">
-                            <span>COMING SOON</span>
+                            <div class="project-status">
+                                Coming Soon
+                            </div>
                         </div>
 
-                        <div class="project-info">
+                        <div class="project-content">
 
-                            <span class="project-status">
-                                PLANNED
-                            </span>
+                            <div class="project-meta">
+                                <span>02</span>
+                                <span>Web Application</span>
+                            </div>
 
-                            <h3>Business Management App</h3>
+                            <h3>Task Management System</h3>
 
                             <p>
-                                A full-stack application for managing
-                                business operations.
+                                A productivity application designed to help
+                                teams organize tasks, track progress and
+                                manage projects efficiently.
                             </p>
 
-                            <div class="project-tags">
+                            <div class="project-tech">
                                 <span>React</span>
                                 <span>Python</span>
-                                <span>SQL</span>
+                                <span>Database</span>
                             </div>
+
+                            <a href="#" class="project-link">
+                                Coming Soon →
+                            </a>
 
                         </div>
 
                     </article>
 
+                    <!-- Project 3 -->
+                    <article class="project-card reveal reveal-delay-3">
 
-                    <article class="project-card">
+                        <div class="project-image project-image-three">
+                            <div class="project-placeholder">
+                                <span>◇</span>
+                            </div>
 
-                        <div class="project-image project-three">
-                            <span>COMING SOON</span>
+                            <div class="project-status">
+                                Planned
+                            </div>
                         </div>
 
-                        <div class="project-info">
+                        <div class="project-content">
 
-                            <span class="project-status">
-                                PLANNED
-                            </span>
+                            <div class="project-meta">
+                                <span>03</span>
+                                <span>Business Website</span>
+                            </div>
 
-                            <h3>E-Commerce Platform</h3>
+                            <h3>Restaurant Website</h3>
 
                             <p>
-                                A modern online shopping experience with
-                                backend management.
+                                A modern restaurant website with menu
+                                presentation, online enquiries and a
+                                responsive customer experience.
                             </p>
 
-                            <div class="project-tags">
-                                <span>React</span>
-                                <span>Django</span>
-                                <span>PostgreSQL</span>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
                             </div>
+
+                            <a href="#" class="project-link">
+                                Coming Soon →
+                            </a>
 
                         </div>
 
@@ -397,92 +521,138 @@
 
                 </div>
 
-            </div>
+                <div class="projects-footer">
+                    <p>
+                        More projects are currently being developed.
+                    </p>
+                </div>
 
+            </div>
         </section>
 
 
-        <!-- ================= TEAM ================= -->
-
-        <section class="section team-section" id="team">
-
+        <!-- ==================== TEAM SECTION ==================== -->
+        <section class="team section" id="team">
             <div class="container">
 
                 <div class="section-heading">
-
-                    <span class="section-label">THE TEAM</span>
-
-                    <h2>
-                        Three developers.
-                        <span>One club.</span>
-                    </h2>
-
-                    <p>
-                        We're learning, building and growing together.
-                    </p>
-
+                    <span class="section-label">MEET THE TEAM</span>
+                    <h2>Three Developers.<br><span>One Direction.</span></h2>
                 </div>
 
+                <div class="team-intro">
+                    <p>
+                        We are a small team of developers with different strengths,
+                        working together to turn ideas into practical digital solutions.
+                    </p>
+                </div>
 
                 <div class="team-grid">
 
-                    <article class="team-card">
+                    <!-- Member 1 -->
+                    <article class="team-card reveal reveal-delay-1">
+                        <div class="team-number">01</div>
 
-                        <div class="member-number">01</div>
+                        <div class="team-avatar">
+                            <span>01</span>
+                        </div>
 
-                        <div class="avatar">D1</div>
+                        <div class="team-content">
+                            <span class="team-role">FULL STACK DEVELOPER</span>
 
-                        <h3>Soham Bachal</h3>
+                            <h3>Soham Bachal</h3>
 
-                        <span>Frontend Developer</span>
+                            <p>
+                                Focused on building responsive interfaces and
+                                connecting modern frontend experiences with backend
+                                functionality.
+                            </p>
 
-                        <p>
-                            Focused on interfaces, responsive design
-                            and frontend development.
-                        </p>
+                            <div class="team-skills">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Python</span>
+                            </div>
 
+                            <div class="team-links">
+                                <a href="https://github.com/SohamBachal" class="team-link">GitHub ↗</a>
+                                <a href="https://www.linkedin.com/in/soham-bachal-7bba383b3/" class="team-link">LinkedIn ↗</a>
+                            </div>
+                        </div>
                     </article>
 
 
-                    <article class="team-card">
+                    <!-- Member 2 -->
+                    <article class="team-card reveal reveal-delay-2">
+                        <div class="team-number">02</div>
 
-                        <div class="member-number">02</div>
+                        <div class="team-avatar">
+                            <span>02</span>
+                        </div>
 
-                        <div class="avatar">D2</div>
+                        <div class="team-content">
+                            <span class="team-role">BACKEND DEVELOPER</span>
 
-                        <h3>Abhijit Kote</h3>
+                            <h3>Abhijit Kote</h3>
 
-                        <span>Backend Developer</span>
+                            <p>
+                                Focused on backend logic, APIs, databases and
+                                building reliable functionality behind web
+                                applications.
+                            </p>
 
-                        <p>
-                            Focused on Python, APIs, databases and
-                            backend systems.
-                        </p>
+                            <div class="team-skills">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>APIs</span>
+                                <span>Database</span>
+                            </div>
 
+                            <div class="team-links">
+                                <a href="https://github.com/abhik-2005" class="team-link">GitHub ↗</a>
+                                <a href="https://www.linkedin.com/in/abhijit-kote-772189284/" class="team-link">LinkedIn ↗</a>
+                            </div>
+                        </div>
                     </article>
 
 
-                    <article class="team-card">
+                    <!-- Member 3 -->
+                    <article class="team-card reveal reveal-delay-3">
+                        <div class="team-number">03</div>
 
-                        <div class="member-number">03</div>
+                        <div class="team-avatar">
+                            <span>03</span>
+                        </div>
 
-                        <div class="avatar">D3</div>
+                        <div class="team-content">
+                            <span class="team-role">UI / UX & FULL STACK</span>
 
-                        <h3>Shreenath Tambe</h3>
+                            <h3>Shreenath Tambe</h3>
 
-                        <span>Full-Stack Developer</span>
+                            <p>
+                                Focused on clean user experiences, interface design
+                                and helping transform ideas into complete web
+                                solutions.
+                            </p>
 
-                        <p>
-                            Working across frontend, backend,
-                            UI/UX and testing.
-                        </p>
+                            <div class="team-skills">
+                                <span>UI / UX</span>
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>Git</span>
+                            </div>
 
+                            <div class="team-links">
+                                <a href="https://github.com/Shreenath-14" class="team-link">GitHub ↗</a>
+                                <a href="https://www.linkedin.com/in/shreenathtambe/" class="team-link">LinkedIn ↗</a>
+                            </div>
+                        </div>
                     </article>
 
                 </div>
 
             </div>
-
         </section>
 
 
@@ -537,87 +707,276 @@
         </section>
 
 
-        <!-- ================= CTA ================= -->
-
-        <section class="cta-section" id="contact">
-
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="contact section" id="contact">
             <div class="container">
 
-                <div class="cta-box">
+                <div class="contact-grid">
 
-                    <span class="section-label">LET'S BUILD</span>
+                    <!-- Left Side -->
+                    <div class="contact-content reveal-left">
 
-                    <h2>
-                        Have an idea?
-                        <span>Let's make it real.</span>
-                    </h2>
+                        <span class="section-label">GET IN TOUCH</span>
 
-                    <p>
-                        We're open to freelance projects, collaborations
-                        and interesting ideas.
-                    </p>
+                        <h2>
+                            Have an idea?
+                            <span>Let's build it.</span>
+                        </h2>
 
-                    <a
-                        href="mailto:bsoham2704@gmail.com"
-                        class="btn btn-primary">
-                        Start a Conversation →
-                    </a>
+                        <p class="contact-description">
+                            Have a website, web application or digital idea in mind?
+                            Tell us what you're working on and let's see how we can
+                            turn it into something useful.
+                        </p>
+
+                        <div class="contact-details">
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">@</div>
+                                <div>
+                                    <span>Email</span>
+                                    <a href="mailto:devninjaclub.team@gmail.com">
+                                        devninjaclub.team@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">◈</div>
+                                <div>
+                                    <span>Response</span>
+                                    <p>Usually within 24–48 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">⌁</div>
+                                <div>
+                                    <span>Available For</span>
+                                    <p>Websites · Web Apps · Freelance Projects</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Right Side - Contact Form -->
+                    <div class="contact-form-wrapper reveal-right">
+
+                        <div class="form-header">
+                            <span>START A PROJECT</span>
+                            <div class="form-status">
+                                <i></i> Available
+                            </div>
+                        </div>
+
+                        <form id="contactForm" action="https://formspree.io/f/meaolwkz" method="POST">
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Enter your name"
+                                        required
+                                    >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="you@example.com"
+                                        required
+                                    >
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="project">Project Type</label>
+
+                                <select id="project" name="project" required>
+                                    <option value="" disabled selected>
+                                        Select project type
+                                    </option>
+                                    <option value="website">
+                                        Business Website
+                                    </option>
+                                    <option value="web-app">
+                                        Web Application
+                                    </option>
+                                    <option value="portfolio">
+                                        Portfolio Website
+                                    </option>
+                                    <option value="ecommerce">
+                                        E-Commerce Website
+                                    </option>
+                                    <option value="other">
+                                        Other
+                                    </option>
+                                </select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="message">Tell Us About Your Project</label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="Tell us about your idea, requirements or project..."
+                                    required
+                                ></textarea>
+                            </div>
+
+
+                            <button type="submit" class="contact-submit">
+                                Send Project Inquiry
+                                <span>→</span>
+                            </button>
+
+                            <p class="form-note">
+                                We'll review your message and get back to you.
+                            </p>
+
+                        </form>
+
+                    </div>
 
                 </div>
 
             </div>
-
         </section>
 
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
+    <!-- ==================== FOOTER ==================== -->
+        <footer class="footer">
 
-    <footer class="footer">
+            <div class="container">
 
-        <div class="container footer-container">
+                <div class="footer-main">
 
-            <div>
+                    <!-- Brand -->
+                    <div class="footer-brand">
 
-                <a href="#" class="logo">
-                    <span class="logo-mark">DNC</span>
+                        <a href="#home" class="footer-logo">
+                            <span class="logo-mark">DNC</span>
+                            <span class="logo-text">
+                                <strong>DEVNINJA</strong>
+                                <small>CLUB</small>
+                            </span>
+                        </a>
 
-                    <span class="logo-text">
-                        DEVNINJA<span>-CLUB</span>
-                    </span>
-                </a>
+                        <p>
+                            A 3-person development team building modern,
+                            responsive and practical digital experiences.
+                        </p>
 
-                <p class="footer-description">
-                    Three developers. One vision.
-                    Building digital experiences together.
-                </p>
+                        <a
+                            href="mailto:devninjaclub.team@gmail.com"
+                            class="footer-email"
+                        >
+                            devninjaclub.team@gmail.com
+                        </a>
+
+                    </div>
+
+
+                    <!-- Quick Links -->
+                    <div class="footer-column">
+
+                        <h4>QUICK LINKS</h4>
+
+                        <nav class="footer-nav">
+
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#team">Team</a>
+                            <a href="#contact">Contact</a>
+
+                        </nav>
+
+                    </div>
+
+
+                    <!-- Services -->
+                    <div class="footer-column">
+
+                        <h4>SERVICES</h4>
+
+                        <nav class="footer-nav">
+
+                            <a href="#services">Web Development</a>
+                            <a href="#services">Web Applications</a>
+                            <a href="#services">UI & UX Design</a>
+                            <a href="#services">Deployment & Support</a>
+
+                        </nav>
+
+                    </div>
+
+
+                    <!-- Connect -->
+                    <div class="footer-column">
+
+                        <h4>CONNECT</h4>
+
+                        <nav class="footer-nav">
+
+                            <a
+                                href="https://github.com/DevNinja-Club"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                            <a
+                                href="mailto:devninjaclub.team@gmail.com"
+                            >
+                                Email ↗
+                            </a>
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Footer Bottom -->
+
+                <div class="footer-bottom">
+
+                    <p>
+                        © 2026 DevNinja-Club. Built with curiosity & code.
+                    </p>
+
+                    <div class="footer-bottom-links">
+
+                        <a href="#home">Back to top ↑</a>
+
+                    </div>
+
+                </div>
 
             </div>
 
-
-            <div class="footer-links">
-
-                <a href="#home">Home</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
-
-            </div>
-
-        </div>
-
-
-        <div class="container copyright">
-
-            <p>
-                © 2026 DevNinja-Club. Built with code and curiosity.
-            </p>
-
-        </div>
-
-    </footer>
+        </footer>
 
 
     <script src="js/script.js"></script>
